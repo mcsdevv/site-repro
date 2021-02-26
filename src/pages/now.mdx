@@ -1,0 +1,55 @@
+import Layout from "@components/layout";
+import Lead from "@components/NowLead";
+import SEO from "@components/seo";
+export const meta = {
+  title: "Now",
+  description: "What I'm up to now.",
+  date: "2020-12-04",
+};
+
+# Now
+
+<Lead date={meta.date} />
+
+## Family
+
+I got married on June 13, 2020. My wife and I had been together for over 5
+years and living together for more than 2 years. The adjustment to married
+life was smooth—very little changed. We're planning on having kids soon
+and trying to decide if we want to live in the US or stay in Japan. This
+will largely depend on my future career plans. Should I happen to find a
+frontend job back in the US, we might move to there in the next couple of
+years.
+
+## Work
+
+I'm currently working for a company that specializes in online ad sales,
+in their development section. We're currently working on v2 of our
+advertisement management software platform—currently in beta and launching
+the public release in February 2021.
+
+## Philosophy
+
+I try to put the words of Stoics like Marcus Aurelius, Seneca, and Epictetus
+into practice on a daily basis. I am working towards being able to separate the
+things I cannot control from the things I can. To not get angry over things
+beyond my control. Strict towards myself, yet tolerant towards others. _Momento
+mori_ has had a profound effect on me. I keep the words, "you could leave life
+right now" as the wallpaper on my iPhone to remind me throughout the day that
+life is short and we must make the most of it. It also serves as a warning
+against mindlessly picking up my phone. 🙃
+
+## Side Projects
+
+I'm working on a newsletter title _Developed in Isolation_ that chronicles
+entrance to the programming world and the struggles of learning on your own
+while living in a country that doesn't have English speakers to get help from.
+It's a little bit about my history and a little bit about development culture
+(and just culture in general) here in Japan, where I've lived for over 15
+years.
+
+export default ({ children }) => (
+  <Layout className="prose sm:prose-lg dark:prose-dark" meta={meta}>
+    {children}
+  </Layout>
+);

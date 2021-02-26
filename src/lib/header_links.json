@@ -1,0 +1,14 @@
+{
+  "internal": [
+    {
+      "title": "Blog",
+      "to": "/writing"
+    }
+  ],
+  "external": [
+    {
+      "title": "Twitter",
+      "to": "https://twitter.com/brandonpittman"
+    }
+  ]
+}
